@@ -1,0 +1,32 @@
+body,
+html {
+	margin: 0;
+  display: flex;
+  /* min-width: 100vw; */
+  width: 100%;
+  min-height: 100vh;
+	font-family: Arial, sans-serif;
+	transition: all 0.3s ease-out;
+}
+
+a {
+	font-weight: 500;
+	color: #646cff;
+	text-decoration: inherit;
+  }
+  a:hover {
+	color: #747bff;
+  }
+
+#root {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.app {
+	/* max-width: 800px; */
+	width: 100%;
+	padding: 0px;
+	box-sizing: border-box;
+}

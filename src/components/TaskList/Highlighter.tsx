@@ -1,5 +1,3 @@
-import React from "react";
-
 const Highlighter = ({ fullText, searchText }: { fullText: string; searchText: string }) => {
   return (
     <>
